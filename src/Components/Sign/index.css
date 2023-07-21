@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 559px;
+  height: 540px;
+  background-color: white;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 16px;
+  margin: 92px auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 100px;
+  color: #0099ff;
+  font-size: 55px;
+
+  font-family: "Poppins"
+}
+.login_heading {
+  font-size: 33px;
+  color: #0099ff;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  justify-content: left;
+}
+
+.form-style {
+  margin-top: 15px;
+  padding-left: 49px;
+  height: 47px;
+  font-weight: 500;
+  border: 1px solid #b8c1cc;
+  border-radius: 8px;
+  width: 310px;
+  font-size: 20px;
+}
+
+.mail-icon {
+  position: absolute;
+  padding: 26px 0px 0px 15px;
+  color: #707070;
+  font-size: 26px;
+  line-height: 48px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.password-icon {
+  position: absolute;
+  padding: 26px 0px 0px 15px;
+  color: #707070;
+  font-size: 26px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.btn {
+  height: 44px;
+  width: 100%;
+  background-color: #2198fa;
+  color: #ffffff;
+  border: 1px solid #2198fa;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
